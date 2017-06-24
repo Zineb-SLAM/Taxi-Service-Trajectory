@@ -1,0 +1,56 @@
+Attribute
+
+TRIP_ID: (String) id each trip;
+
+CALL_TYPE: (char) It identifies the way used to demand this service
+- 'A' if this trip was dispatched from the central;
+- 'B' if this trip was demanded directly to a taxi driver at a specific stand;
+- 'C' otherwise (i.e. a trip demanded on a random street).
+
+ORIGIN_CALL: (integer) It contains a unique identifier for each phone number which was used to demand, at least, one service. It identifies the trip's customer if CALL_TYPE='A'. Otherwise, it assumes a NULL value;
+
+ORIGIN_STAND: (integer): It contains a unique identifier for the taxi stand. It identifies the starting point of the trip if CALL_TYPE='B'. Otherwise, it assumes a NULL value;
+
+TAXI_ID: (integer): It contains a unique identifier for the taxi driver that performed each trip;
+
+TIMESTAMP: (integer) Unix Timestamp (in seconds). It identifies the trip's start;
+
+DAYTYPE: (char) It identifies the daytype of the trip's start. It assumes one of three possible values:
+- 'B' if this trip started on a holiday or any other special day (i.e. extending holidays, floating holidays, etc.);
+- 'C' if the trip started on a day before a type-B day;
+- 'A' otherwise (i.e. a normal day, workday or weekend).
+
+
+MISSING_DATA: (Boolean) It is FALSE when the GPS data stream is complete and TRUE whenever one (or more) locations are missing;
+
+POLYLINE: (String): It contains a list of GPS coordinates (i.e. WGS84 format) mapped as a string. The beginning and the end of the string are identified with brackets (i.e. [ and ], respectively). Each pair of coordinates is also identified by the same brackets as [LONGITUDE, LATITUDE]. This list contains one pair of coordinates for each 15 seconds of trip. The last list item corresponds to the trip's destination while the first one represents its start.
+
+
+************************************************************************************************************
+rapport technique de construction
+analyse de donnnees
+comment avez vous stocked 
+Les outils mis en place
+
+Pour enlever l ambiguite on ajoute le tripid pour le clustering
+
+
+
+
+Je mets pave dans la partition key pour trouver les trajets aui partent a partir d une date donnee, la j ai 2 choix
+soit je partitionne par pave puis je cluster par annee, mois et date et dans ce cas je peux repondre a la question :
+QUELLES SONT LES TRAJETS DESSERVIS PAR CETTE LOCATION ENTRE LE 24 APRIL 2001 ET LE 24 AVRIL 2002
+
+MAIS SI JE DECIDE DE METTRE LES ANNEES ET LES MOIS EN PARTITION KEY ET JE CLUSTER EN JOUR, JE NE PEUX PAS METTRE UN INTERVALLE PAR ANNEE ET PAR MOIS CAR JE DOIS LES PRECISER PAR VALEUR , MAIS JE PEUX AVOIR DES INTERVALLES DE JOURS
+
+DANS LE PREMIER CAS LES PARTITIONS SERONT TROP GRANDE ET VONT GRANDIR INFINIMENR DONC POUR LES LIMITER JE VAIS LES PARTITIONNER PAR PAVE ET PAR ANNEE COMME CA JE SUIS SUR DE REGROUPER LES PAVES PAR ANNEE ET ELLE NE VONT PAS GRANDIR INFINIMENT
+
+Pour question d evolutivite on garde tous les attributs mais pas tous
+
+
+As a final example, consider perhaps a use case where we need to calculate the volume of an item (perhaps once again for postal charges). We're interested in both the volume, as well as the proper units for the calculated volume. In pre-Cassandra 2.2, we would retrieve all the dimensions and perform the volume calculation on the client-side. In Cassandra 2.2, we can move the volume computation to the server via a UDF. Since UDFs work horizontally across a single column in a single row, this is readily implemented:
+
+
+
+
+

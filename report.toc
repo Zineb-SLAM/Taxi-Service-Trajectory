@@ -1,0 +1,23 @@
+\select@language {english}
+\contentsline {section}{\numberline {1}Description des Donn\IeC {\'e}es}{2}
+\contentsline {section}{\numberline {2}Mod\IeC {\'e}lisation}{3}
+\contentsline {subsection}{\numberline {2.1}Dimensions}{3}
+\contentsline {subsection}{\numberline {2.2}Faits}{4}
+\contentsline {subsection}{\numberline {2.3}Attributs}{4}
+\contentsline {subsubsection}{Question 1}{4}
+\contentsline {subsubsection}{Question 2}{5}
+\contentsline {subsubsection}{Question 3}{6}
+\contentsline {subsubsection}{Question 4}{7}
+\contentsline {subsubsection}{Question 4}{8}
+\contentsline {section}{\numberline {3}Nettoyage et Insertion des donn\IeC {\'e}es en Python}{9}
+\contentsline {subsection}{\numberline {3.1}Nettoyage}{9}
+\contentsline {subsection}{\numberline {3.2}Insertion}{9}
+\contentsline {section}{\numberline {4}Exploitation et Visualisation des donn\IeC {\'e}es}{9}
+\contentsline {subsection}{\numberline {4.1}Trip1}{9}
+\contentsline {subsection}{\numberline {4.2}Trip2}{10}
+\contentsline {subsection}{\numberline {4.3}Trip3}{10}
+\contentsline {subsection}{\numberline {4.4}Trip4}{11}
+\contentsline {subsection}{\numberline {4.5}kmeans}{12}
+\contentsline {subsubsection}{Impl\IeC {\'e}mentation}{12}
+\contentsline {subsubsection}{Performance, r\IeC {\'e}sultats et extension}{13}
+\contentsline {section}{\numberline {5}Conclusion}{14}
