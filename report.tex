@@ -7,6 +7,7 @@
 \usepackage[utf8x]{inputenc}
 \usepackage{amsmath}
 \usepackage{graphicx}
+\usepackage{hyperref}
 \usepackage[colorinlistoftodos]{todonotes}
 \usepackage{listings}
 \usepackage{color}
@@ -300,5 +301,19 @@
 	\section{Conclusion}
 	Ce premier mois de travail sur le projet nous a permis de faire une conception détaillée de notre base de données. Ainsi nous avons pu mettre en place différentes questions qui nous ont permis de modéliser les tables de faits correspondantes. Après nettoyage et insertion des données nous avons pu visualiser les réponses a ces questions. La méthode des kmeans nous permet de mieux étudier les flux des taxi et les visualiser.\\
 	Dans la suite du projet nous serons amené a améliorer cette méthode des kmeans et développer d'autres méthodes statistiques comme la régression logistique pour classifier les données.
+	
+	\pagebreak
+	
+	\section{Annexe}
+	Les fichiers de codes sont joints à ce rapport dans le dossier code, et sont aussi disponible sur le lien Github suivant: \url{https://github.com/Zineb-SLAM/Taxi-Service-Trajectory}
+	\begin{itemize}
+		\item taxi.py : Insertion des données
+		\item create\_db.cqlsh: Création des tables de faits 
+		\item query\_trip1: Sélection des données dans la table de fait Trip1
+		\item query\_trip2: Sélection des données dans la table de fait Trip2
+		\item query\_trip3: Sélection des données dans la table de fait Trip3
+		\item query\_trip4: Sélection des données dans la table de fait Trip4
+		\item kmeans: fonction des kmeans
+	\end{itemize}
 \end{document}
 
