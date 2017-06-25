@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  25 JUN 2017 01:29
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  25 JUN 2017 13:02
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -739,7 +739,7 @@ Package caption Info: End \AtBeginDocument code.
 (/usr/local/texlive/2016/texmf-dist/tex/latex/ucs/data/uni-0.def
 File: uni-0.def 2013/05/13 UCS: Unicode data U+0000..U+00FF
 )
-<Figures/utc.jpg, id=71, 1133.23375pt x 549.05125pt>
+<Figures/utc.jpg, id=67, 1133.23375pt x 549.05125pt>
 File: Figures/utc.jpg Graphic file (type jpg)
  <use Figures/utc.jpg>
 Package pdftex.def Info: Figures/utc.jpg used on input line 48.
@@ -785,7 +785,7 @@ File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 86.
 
-[2] <Figures/modele.png, id=111, 1129.21875pt x 542.025pt>
+[2] <Figures/modele.png, id=106, 1129.21875pt x 542.025pt>
 File: Figures/modele.png Graphic file (type png)
 
 <use Figures/modele.png>
@@ -806,7 +806,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 127--128
 (/usr/local/texlive/2016/texmf-dist/tex/latex/ucs/data/uni-1.def
 File: uni-1.def 2013/05/13 UCS: Unicode data U+0100..U+01FF
 ) [4]
-<Figures/Trip1.png, id=124, 355.3275pt x 556.0775pt>
+<Figures/Trip1.png, id=120, 355.3275pt x 556.0775pt>
 File: Figures/Trip1.png Graphic file (type png)
  <use Figures/Trip1.png>
 Package pdftex.def Info: Figures/Trip1.png used on input line 139.
@@ -817,7 +817,7 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 140.
 See the caption package documentation for explanation.
 
-<Figures/Trip2.png, id=125, 371.3875pt x 542.025pt>
+<Figures/Trip2.png, id=121, 371.3875pt x 542.025pt>
 File: Figures/Trip2.png Graphic file (type png)
  <use Figures/Trip2.png>
 Package pdftex.def Info: Figures/Trip2.png used on input line 153.
@@ -832,7 +832,7 @@ See the caption package documentation for explanation.
 (/usr/local/texlive/2016/texmf-dist/tex/latex/ucs/data/uni-32.def
 File: uni-32.def 2013/05/13 UCS: Unicode data U+2000..U+20FF
 )
-<Figures/Trip3.png, id=136, 368.37625pt x 536.0025pt>
+<Figures/Trip3.png, id=132, 368.37625pt x 536.0025pt>
 File: Figures/Trip3.png Graphic file (type png)
  <use Figures/Trip3.png>
 Package pdftex.def Info: Figures/Trip3.png used on input line 166.
@@ -843,7 +843,7 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 167.
 See the caption package documentation for explanation.
 
-[6 <./Figures/Trip2.png>] <Figures/Trip4.png, id=144, 353.32pt x 560.0925pt>
+[6 <./Figures/Trip2.png>] <Figures/Trip4.png, id=140, 353.32pt x 560.0925pt>
 File: Figures/Trip4.png Graphic file (type png)
 
 <use Figures/Trip4.png>
@@ -856,142 +856,146 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 See the caption package documentation for explanation.
 
 [7 <./Figures/Trip3.png>] [8 <./Figures/Trip4.png>]
-<Figures/trips_by_day.png, id=159, 462.528pt x 346.896pt>
+<Figures/trips_by_day.png, id=155, 462.528pt x 346.896pt>
 File: Figures/trips_by_day.png Graphic file (type png)
 
 <use Figures/trips_by_day.png>
-Package pdftex.def Info: Figures/trips_by_day.png used on input line 209.
+Package pdftex.def Info: Figures/trips_by_day.png used on input line 210.
 (pdftex.def)             Requested size: 213.39566pt x 160.05048pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 210.
+(caption)                particular \caption on input line 211.
 See the caption package documentation for explanation.
 
 
-Overfull \hbox (40.89566pt too wide) in paragraph at lines 209--210
+Overfull \hbox (40.89566pt too wide) in paragraph at lines 210--211
 [][] 
  []
 
-<Figures/distance_by_day.png, id=160, 462.528pt x 346.896pt>
+<Figures/distance_by_day.png, id=156, 462.528pt x 346.896pt>
 File: Figures/distance_by_day.png Graphic file (type png)
 
 <use Figures/distance_by_day.png>
-Package pdftex.def Info: Figures/distance_by_day.png used on input line 214.
+Package pdftex.def Info: Figures/distance_by_day.png used on input line 215.
 (pdftex.def)             Requested size: 213.39566pt x 160.05048pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 215.
+(caption)                particular \caption on input line 216.
 See the caption package documentation for explanation.
 
 
-Overfull \hbox (40.89566pt too wide) in paragraph at lines 214--215
+Overfull \hbox (40.89566pt too wide) in paragraph at lines 215--216
 [][] 
  []
 
 
-Overfull \hbox (22.92137pt too wide) in paragraph at lines 207--217
+Overfull \hbox (22.92137pt too wide) in paragraph at lines 208--218
 []$  $[]$ 
  []
 
-[9] <Figures/pave.png, id=172, 857.2025pt x 109.40875pt>
+[9] <Figures/pave.png, id=168, 857.2025pt x 109.40875pt>
 File: Figures/pave.png Graphic file (type png)
 
 <use Figures/pave.png>
-Package pdftex.def Info: Figures/pave.png used on input line 227.
+Package pdftex.def Info: Figures/pave.png used on input line 228.
 (pdftex.def)             Requested size: 241.84842pt x 30.86795pt.
  [10 <./Figures/trips_by_day.png> <./Figures/distance_by_day.png> <./Figures/pa
 ve.png>]
-Overfull \hbox (32.4728pt too wide) in paragraph at lines 238--239
+Overfull \hbox (32.4728pt too wide) in paragraph at lines 239--240
 \OT1/cmr/m/n/10 Nous avons es-say^^Se de repr^^Sesenter graphique-ment les r^^S
 esultats sous forme d'histogramme.
  []
 
-<Figures/histogram_trip_by_taxi.png, id=184, 462.528pt x 346.896pt>
+<Figures/histogram_trip_by_taxi.png, id=180, 462.528pt x 346.896pt>
 File: Figures/histogram_trip_by_taxi.png Graphic file (type png)
 
 <use Figures/histogram_trip_by_taxi.png>
 Package pdftex.def Info: Figures/histogram_trip_by_taxi.png used on input line 
-240.
+241.
 (pdftex.def)             Requested size: 241.84842pt x 181.38736pt.
 
-Overfull \hbox (9.11166pt too wide) in paragraph at lines 243--244
+Overfull \hbox (9.11166pt too wide) in paragraph at lines 244--245
 \OT1/cmr/m/n/10 Nous abor-dons la m^eme d^^Semarche que pour les taxi pour ques
 -tion-ner et repr^^Sesenter
  []
 
-<Figures/histogram_trip_from_station.png, id=185, 462.528pt x 346.896pt>
+<Figures/histogram_trip_from_station.png, id=181, 462.528pt x 346.896pt>
 File: Figures/histogram_trip_from_station.png Graphic file (type png)
 
 <use Figures/histogram_trip_from_station.png>
 Package pdftex.def Info: Figures/histogram_trip_from_station.png used on input 
-line 245.
+line 246.
 (pdftex.def)             Requested size: 241.84842pt x 181.38736pt.
  [11 <./Figures/histogram_trip_by_taxi.png> <./Figures/histogram_trip_from_stat
 ion.png>] [12]
-<Figures/kmeans_10AM.png, id=208, 462.528pt x 346.896pt>
+Underfull \hbox (badness 10000) in paragraph at lines 278--280
+
+ []
+
+<Figures/kmeans_10AM.png, id=204, 462.528pt x 346.896pt>
 File: Figures/kmeans_10AM.png Graphic file (type png)
 
 <use Figures/kmeans_10AM.png>
-Package pdftex.def Info: Figures/kmeans_10AM.png used on input line 283.
+Package pdftex.def Info: Figures/kmeans_10AM.png used on input line 284.
 (pdftex.def)             Requested size: 184.9429pt x 138.7083pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 284.
+(caption)                particular \caption on input line 285.
 See the caption package documentation for explanation.
 
 
-Overfull \hbox (12.4429pt too wide) in paragraph at lines 283--284
+Overfull \hbox (12.4429pt too wide) in paragraph at lines 284--285
 [][] 
  []
 
-<Figures/kmeans_8PM.png, id=209, 462.528pt x 346.896pt>
+<Figures/kmeans_8PM.png, id=205, 462.528pt x 346.896pt>
 File: Figures/kmeans_8PM.png Graphic file (type png)
 
 <use Figures/kmeans_8PM.png>
-Package pdftex.def Info: Figures/kmeans_8PM.png used on input line 288.
+Package pdftex.def Info: Figures/kmeans_8PM.png used on input line 289.
 (pdftex.def)             Requested size: 184.9429pt x 138.7083pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 289.
+(caption)                particular \caption on input line 290.
 See the caption package documentation for explanation.
 
 
-Overfull \hbox (12.4429pt too wide) in paragraph at lines 288--289
+Overfull \hbox (12.4429pt too wide) in paragraph at lines 289--290
 [][] 
  []
 
 
-Overfull \hbox (9.12369pt too wide) in paragraph at lines 281--291
+Overfull \hbox (9.12369pt too wide) in paragraph at lines 282--292
 []$  $[]$ 
  []
 
 [13 <./Figures/kmeans_10AM.png> <./Figures/kmeans_8PM.png>] [14] [15]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 318.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 318.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 319.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 319.
 
 (./report.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 318.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 318.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 319.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 319.
 Package rerunfilecheck Info: File `report.out' has not changed.
-(rerunfilecheck)             Checksum: EA875ED6F5095442CF260691B2C68A8F;975.
+(rerunfilecheck)             Checksum: EACEC219CA9B4B587937F9B236C73DD8;912.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 318.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 319.
  ) 
 Here is how much of TeX's memory you used:
- 21617 strings out of 493014
- 383556 string characters out of 6133351
- 465780 words of memory out of 5000000
- 24731 multiletter control sequences out of 15000+600000
+ 21616 strings out of 493014
+ 383532 string characters out of 6133351
+ 465781 words of memory out of 5000000
+ 24730 multiletter control sequences out of 15000+600000
  10253 words of font info for 39 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,6n,92p,1728b,1848s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 55i,6n,92p,1744b,1848s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
 </usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb>
@@ -1004,10 +1008,10 @@ l/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local
 /texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/
 texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/t
 exlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt9.pfb>
-Output written on report.pdf (17 pages, 1159693 bytes).
+Output written on report.pdf (17 pages, 1159902 bytes).
 PDF statistics:
- 286 PDF objects out of 1000 (max. 8388607)
- 227 compressed objects within 3 object streams
+ 282 PDF objects out of 1000 (max. 8388607)
+ 223 compressed objects within 3 object streams
  65 named destinations out of 1000 (max. 500000)
- 206 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 198 words of extra memory for PDF output out of 10000 (max. 10000000)
 
